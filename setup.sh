@@ -20,10 +20,10 @@ echo 'cd to ~/go/src'
 cd ~/go/src
 
 echo 'Install gus-automation...'
-git install https://github.com/zhouaea/gus-automation.git
+git clone https://github.com/zhouaea/gus-automation.git
 
 echo 'Installing gus-epaxos...'
-https://github.com/bc-computing/gus-epaxos.git
+git clone https://github.com/bc-computing/gus-epaxos.git
 
 echo 'Installing gryff-testing...'
-https://github.com/bc-computing/gryff-testing.git
+git clone https://github.com/bc-computing/gryff-testing.git
