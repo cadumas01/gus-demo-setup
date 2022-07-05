@@ -22,8 +22,8 @@ cd ~/go/src
 echo 'Install gus-automation...'
 git clone https://github.com/zhouaea/gus-automation.git
 
-echo 'Installing gus-epaxos...'
-git clone https://github.com/bc-computing/gus-epaxos.git
+echo 'Installing epaxos-demo...'
+https://github.com/cadumas01/epaxos-demo.git
 
-echo 'Installing gryff-testing...'
-git clone https://github.com/bc-computing/gryff-testing.git
+# echo 'Installing gryff-testing...'
+# git clone https://github.com/bc-computing/gryff-testing.git
