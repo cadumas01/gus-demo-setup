@@ -19,8 +19,8 @@ sudo apt-get install python3.8
 echo 'cd to ~/go/src'
 cd ~/go/src
 
-echo 'Install gus-automation...'
-git clone https://github.com/zhouaea/gus-automation.git
+echo 'Install gus-automation (gcp branch)...'
+git clone -b gcp https://github.com/zhouaea/gus-automation.git
 
 echo 'Installing epaxos-demo...'
 https://github.com/cadumas01/epaxos-demo.git
