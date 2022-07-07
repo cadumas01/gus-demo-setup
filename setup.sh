@@ -8,9 +8,16 @@ sudo apt install wget
 
 echo 'Installing golang...'
 # Download Go
-sudo wget -c https://golang.org/dl/go1.15.2.linux-amd64.tar.gz
+sudo wget -c https://golang.org/dl/go1.18.3.linux-amd64.tar.gz
 # Install at root
-sudo tar -xvzf go1.15.2.linux-amd64.tar.gz 
+sudo tar -C /root/ -xzf go1.13.5.linux-amd64.tar.gz
+# Add to path
+cd /etc/
+echo "export PATH=$PATH:/root/go/bin" >> profile
+source profile
+echo "Just installed : "
+go version
+
 
 echo 'Installing python...'
 sudo apt-get update
