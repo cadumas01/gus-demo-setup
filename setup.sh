@@ -7,22 +7,18 @@ echo 'Installing wget'
 sudo apt install wget
 
 echo 'Installing golang...'
-# Download Go
-sudo wget -c https://golang.org/dl/go1.18.3.linux-amd64.tar.gz
-# Install at root
-sudo tar -C /root/ -xzf go1.18.3.linux-amd64.tar.gz
-# Add to path
-cd /etc/
-echo "export PATH=$PATH:/root/go/bin" >> profile
-source profile
-echo "Just installed : "
+wget -q https://golang.org/dl/${go_tar}
+sudo tar -C /usr/local -xzf ${go_tar}
+rm ${go_tar}
+echo 'export PATH=${PATH}:/usr/local/go/bin' >>~/.bashrc
+echo 'export GOPATH=~/go' >>~/.bashrc
+echo 'export GO111MODULE="auto"' >>~/.bashrc
+source ~/.bashrc
 go version
-cd 
-
 
 echo 'Installing python...'
 sudo apt-get update
-sudo apt-get install python3.8
+sudo apt-get install python3
 
 echo 'cd to ~/go/src'
 cd ~/go/src
