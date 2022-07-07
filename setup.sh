@@ -17,6 +17,7 @@ echo "export PATH=$PATH:/root/go/bin" >> profile
 source profile
 echo "Just installed : "
 go version
+cd 
 
 
 echo 'Installing python...'
