@@ -1,4 +1,5 @@
 #!/bin/sh
+go_tar=go1.15.8.linux-amd64.tar.gz
 
 echo 'cd to root'
 cd 
