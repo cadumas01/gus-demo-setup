@@ -18,17 +18,17 @@ echo 'export GO111MODULE="auto"' >>~/.bashrc
 source ~/.bashrc
 go version
 
-echo 'Installing python...'
-sudo apt-get update
-sudo apt-get install python3
+# echo 'Installing python...'
+# sudo apt-get update
+# sudo apt-get install python3
 
 
-echo 'mkdir ~/go/src'
-cd
-mkdir go
-cd go
-mkdir src
-cd src
+# echo 'mkdir ~/go/src'
+# cd
+# mkdir go
+# cd go
+# mkdir src
+# cd src
 
 
 echo 'Install gus-automation (gcp branch)...'
