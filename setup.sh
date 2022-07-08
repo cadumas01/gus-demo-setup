@@ -6,6 +6,9 @@ cd
 echo 'Installing wget'
 sudo apt install wget
 
+echo 'Installing git...'
+apt-get install git
+
 echo 'Installing golang...'
 sudo wget -c https://golang.org/dl/go1.18.3.linux-amd64.tar.gz
 sudo tar -C /usr/local -xzf go1.18.3.linux-amd64.tar.gz
@@ -19,8 +22,14 @@ echo 'Installing python...'
 sudo apt-get update
 sudo apt-get install python3
 
-echo 'cd to ~/go/src'
-cd ~/go/src
+
+echo 'mkdir ~/go/src'
+cd
+mkdir go
+cd go
+mkdir src
+cd src
+
 
 echo 'Install gus-automation (gcp branch)...'
 sudo git clone -b gcp https://github.com/zhouaea/gus-automation.git
