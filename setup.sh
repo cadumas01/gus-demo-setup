@@ -31,8 +31,6 @@ mkdir src
 cd src
 
 
-echo 'Install gus-automation (gcp branch)...'
-sudo git clone -b gcp https://github.com/zhouaea/gus-automation.git
 
 echo 'Installing epaxos-demo...'
 sudo git clone https://github.com/cadumas01/epaxos-demo.git
