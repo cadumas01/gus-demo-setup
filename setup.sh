@@ -1,7 +1,7 @@
 #!/bin/sh
 
-echo 'cd to root'
-cd 
+#echo 'cd to root'
+#cd 
 
 echo 'Installing wget'
 sudo apt install wget
