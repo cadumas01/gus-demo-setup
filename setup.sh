@@ -20,10 +20,10 @@ go version
 
 # echo 'Installing python...'
 sudo apt-get update
-sudo apt-get install python3
+yes | sudo apt-get install python3
 
 # echo Installing pip
-sudo apt-get install python3-pip
+yes | sudo apt-get install python3-pip
 
 # install numpy
 pip3 install numpy
