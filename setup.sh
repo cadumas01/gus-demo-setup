@@ -20,7 +20,7 @@ go version
 
 # echo 'Installing python...'
 sudo apt-get update
-yes | sudo apt-get install python3
+yes Y| sudo apt-get install python3
 
 # echo Installing pip
 yes Y| sudo apt-get install python3-pip
