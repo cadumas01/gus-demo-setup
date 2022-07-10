@@ -39,3 +39,5 @@ cd src
 
 echo 'Installing epaxos-demo...'
 sudo git clone https://github.com/cadumas01/epaxos-demo.git
+
+cd epaxos-demo
