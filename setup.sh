@@ -22,6 +22,11 @@ go version
 sudo apt-get update
 sudo apt-get install python3
 
+# echo Installing pip
+sudo apt-get install python3-pip
+
+# install numpy
+pip3 install numpy
 
 # echo 'mkdir ~/go/src'
 cd
