@@ -23,7 +23,7 @@ sudo apt-get update
 yes | sudo apt-get install python3
 
 # echo Installing pip
-yes | sudo apt-get install python3-pip
+yes Y| sudo apt-get install python3-pip
 
 # install numpy
 pip3 install numpy
